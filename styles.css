@@ -1,0 +1,59 @@
+html {
+  width: auto;
+  height: 100%;
+}
+
+body {
+  background-image: url("../Cheat-sheet/resources/images/Background.jpg");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+header h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+section h2 {
+  font-weight: 400;
+  text-align: center;
+}
+
+article h3 {
+  font-weight: 400;
+  text-align: left;
+  text-decoration: underline;
+}
+
+article h4 {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+table {
+  border: 0.5px solid;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead tr th {
+  text-align: center;
+  background-color: #99accf;
+  padding: 5px;
+}
+
+td {
+  border: 0.5px solid;
+  padding: 10px;
+}
+
+tbody > tr > :nth-child(3) {
+  text-align: center;
+}
+
+.table-headings {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 729px;
+}
